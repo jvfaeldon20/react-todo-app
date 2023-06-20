@@ -1,0 +1,25 @@
+.todo-items{
+    list-style-type: none;
+    width: 1200px;
+    margin: 20px auto;
+}
+  
+.todo-items > li {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    display: flex;
+    padding: 5px 0;
+    gap: 1rem;
+}
+  
+.todo-completed {
+    text-decoration: line-through;
+}
+  
+.todo-btn {
+    padding: 10px 20px;
+    background-color: #EF5350;
+    border: 0;
+    color: #fff;
+}

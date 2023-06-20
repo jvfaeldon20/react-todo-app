@@ -1,0 +1,19 @@
+.search-input {
+    font-size: 15px;
+    padding-left: 10px;
+}
+  
+.search-container{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.search-btn{
+    background-color: steelblue;
+    font-size: medium;
+    color: aliceblue;
+}
